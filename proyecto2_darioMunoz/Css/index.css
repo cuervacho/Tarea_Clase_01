@@ -1,0 +1,205 @@
+* {
+    line-height: 1.5;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    /* background-color: #a8f7da; */
+    
+}
+
+.h1Style {
+    margin-bottom: 0;
+    font-size: 5rem;
+}
+
+
+.bodyStyle {
+    background-color: lightgray;
+}
+
+.header_style {
+    background-color: #04AA6D; /* deeppink; */
+    text-align: center;
+    /* display: flex; */
+    /* font-family: 'Caveat', cursive, bold; */
+    font-family: 'Patua One', cursive, bold, italic;
+    font-weight: bolder;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/* .img_banda {
+    display: flex;
+    justify-content: center;
+} */
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #a8f7da/* #a9fff5; */
+}
+
+#customers tr:hover {
+    background-color: rgb(187, 197, 202);
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.discografiaStyle {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.img_discos {
+    width: 300px;
+    border-radius: 2%;
+}
+
+.iframe_video {
+    width: 75%;
+    height: 75%;
+}
+
+.index_nav_ul_menu {
+    /* display: flex; */
+    background-color: #04AA6D;
+    padding: 10px;
+    /* justify-content: space-around; */
+}
+
+.index_nav_ul_menu_li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* .index_nav_ul_menu_container {
+    display: flex;
+    background-color: blue;
+    width: 50px;
+    margin: 10px;
+    text-align: justify;
+    line-height: 75px;
+    border: 2px solid black;
+    flex-direction: row;
+} */
+
+/* .div_section_contenedor_de_todo {
+    background-color: rgb(128, 255, 0);
+    opacity: 0.4;
+} */
+
+.div_section_contenedor_de_todo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: /* rgb(233, 233, 233) */rgb(122, 255, 142);
+    /* width: 1700px; */
+    /* height: 2000px; */
+    justify-content: space-around;
+    padding-top: 1%;
+    padding-bottom: 1%;      
+}
+
+.div_contenedor_del_1er_disco {
+    font-family: 'Patua One', cursive;
+    background-color: #04AA6D;
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+    text-align: justify;
+    line-height: 75px;
+    /* font-size: 30px; */
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+/* .main_Section_discos {
+    width: 310px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap;
+    justify-content: space-around; */
+
+
+    
+    /* margin-right: 3px;
+    background-color: #a9fff5; */
+    /* margin-left: 3px; */
+
+/* 
+} */
+
+/* .alineacion_contenido_main_section_discos {
+    justify-content: baseline;
+    /* align-content: space-around;  ver si corresponde*/
+    /* flex-wrap: wrap;
+    margin-left: 4px;
+    margin-right: 4px;
+
+} */
+
+.alineacion_contenido_discos_container_titulo {
+    text-align: center;
+}
+
+.alineacion_contenido_discos_container_texto {
+    text-align: justify;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.UlFooter{
+    padding-top: 1rem;
+    font-family: 'Patua One', cursive, bold;
+}
+
+.iconos_redes {
+    width: 40px;
+}
+
+.iconos_redes_facebook {
+    border-radius: 10%;
+}
+
+.alineacion_iconos_redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: blue;
+    /* width: 50px;
+    margin: 10px; */
+    text-align: justify;
+    line-height: 75px;
+    border: 2px solid black;
+    padding-left: 800px;
+    padding-right: 800px;
+}
+
+.slide img {
+    height: auto;
+    /* padding-left: 25%; */
+}

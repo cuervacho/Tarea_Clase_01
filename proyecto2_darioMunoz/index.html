@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina2-DarioMunoz</title>
+    <link rel="stylesheet" href="./Css/index.css">
+    <script src="https://kit.fontawesome.com/c453cdbf08.js" crossorigin="anonymous"></script>
+    <!-- CSS only bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Carter+One&family=Caveat&family=EB+Garamond&family=Lora:wght@500&family=Patua+One&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body class="bodyStyle">
+    <header id="inicio">
+        <div class="header_style">
+            <h1 class="h1Style">EL PLAN DE LA MARIPOSA</h1>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-bars-staggered"></i></a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#discografia">DISCOGRAFÍA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">HISTORIA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#follow">SEGUIR A LA BANDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"> <i class="fa-solid fa-user"></i></a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <main>
+        <!-- Carrousel de bootstrap -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imagenes/Banda.jpg" class="d-block w-100 img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/banda1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/banda3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--fin bootstrap  -->
+        <section>
+            <!-- <div class="img_banda">
+                <img src="./imagenes/Banada.jpg" class="img-fluid" alt="img_actual_de_la_banda">
+            </div> -->
+        </section>
+
+        <div class="discografiaStyle">
+            <section>
+                <div class="container-fluid fw-bolder">
+                    <h2 id="discografia" class="fw-bolder">DISCOGRAFÍA</h2>
+                    <table id="customers" class="table">
+                        <tr>
+                            <th>AÑO</th>
+                            <th>DISCO</th>
+                            <th>DISCOGRÁFICA</th>
+                            <th>VALORACION</th>
+                        </tr>
+                        <tr>
+                            <td>2011</td>
+                            <td>Brote</td>
+                            <td>Independiente</td>
+                            <td>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                    <button class="btn btn-outline-dark me-md-2" type="button">Votar</button>
+                                    <button class="btn btn-outline-dark" type="button">Consultar Stock</button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2013</td>
+                            <td>Trance Habitante</td>
+                            <td>Independiente</td>
+                            <td>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                    <button class="btn btn-outline-dark me-md-2" type="button">Votar</button>
+                                    <button class="btn btn-outline-dark" type="button">Consultar Stock</button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2015</td>
+                            <td>Danza de Antalogía</td>
+                            <td>Savia Records</td>
+                            <td>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                    <button class="btn btn-outline-dark me-md-2" type="button">Votar</button>
+                                    <button class="btn btn-outline-dark" type="button">Consultar Stock</button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2017</td>
+                            <td>Devorando Intensidad</td>
+                            <td>Savia Records</td>
+                            <td>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                    <button class="btn btn-outline-dark me-md-2" type="button">Votar</button>
+                                    <button class="btn btn-outline-dark" type="button">Consultar Stock</button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2020</td>
+                            <td>Estado de Enlace</td>
+                            <td>Savia Records</td>
+                            <td>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                    <button class="btn btn-outline-dark me-md-2" type="button">Votar</button>
+                                    <button class="btn btn-outline-dark" type="button">Consultar Stock</button>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+
+        <div class="container-fluid">
+            <div class="row justify-content-around">
+                <div class="div_section_contenedor_de_todo">
+                    <div>
+                        <div class="div_contenedor_del_1er_disco">
+                            <div class="alineacion_contenido_discos_container_titulo">
+                                <p class="h4">BROTE</p>
+                            </div>
+                            <div>
+                                <img src="./imagenes/1.Brote.jpg" alt="imagen_Brote_1erDisco"
+                                    class="img-fluid img_discos">
+                            </div>
+                            <div class="alineacion_contenido_discos_container_texto">
+                                <p class="fw-bolder">Su primer disco "Brote", de 2011, según los integrantes, cuenta una
+                                    historia de introspección
+                                    y
+                                    transformación. Con una pila de discos en mano llegaron las presentaciones a
+                                    concursos. En
+                                    el YPF
+                                    Destino Rock 2011, eligieron a El Plan de la Mariposa entre las 25 mejores bandas
+                                    argentinas, debido a
+                                    la repercusión que obtuvo la canción "El Durazno". Por supuesto, con atención al
+                                    antecedente
+                                    y por el
+                                    disfrute que le imprime la banda al tocarlo, el tema El Durazno también se ganó el
+                                    lugar del
+                                    primer
+                                    videoclip oficial (2012), con edición de Sebastián Andersen y la española Juana
+                                    López del
+                                    Castillo.
+                                </p>
+                            </div>
+                            <div>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button class="btn btn-secondary" type="button">reproducir</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="div_contenedor_del_1er_disco">
+                            <div class="alineacion_contenido_discos_container_titulo">
+                                <p class="h4">TRANCE HABITANTE</p>
+                            </div>
+                            <div>
+                                <img src="./imagenes/2.Trance_habitante.jpg" alt="imagen_Trance_Habitante_2doDisco"
+                                    class="img-fluid img_discos">
+                            </div>
+                            <div>
+                                <p class="fw-bolder">Este aparece en mayo de 2013 y se presenta en Ciudad Cultural
+                                    Konex,
+                                    con más historias
+                                    contadas entre la
+                                    gráfica y la música, y con especial colaboración del artista plástico argentino
+                                    Hernán
+                                    Ricaldoni. La
+                                    vida es viaje, por lo que parte de El Plan de la Mariposa se fue al norte en 2011,
+                                    hasta
+                                    Europa, y llevó
+                                    su arte por una Suiza y Francia callejeras, motivando a una segunda vuelta en
+                                    mayo-junio
+                                    de
+                                    2013 con
+                                    arranque por España.
+                                </p>
+                            </div>
+                            <div>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button class="btn btn-secondary" type="button">reproducir</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="div_contenedor_del_1er_disco">
+                            <div class="alineacion_contenido_discos_container_titulo">
+                                <p class="h4">DANZA DE ANTALOGÍA</p>
+                            </div>
+                            <div>
+                                <img src="./imagenes/3.Danza_de_antalogia.jpg" alt="imagen_DANZA_DE_ANTALOGÍA_3erDisco"
+                                    class="img-fluid img_discos">
+                            </div>
+                            <div>
+                                <p class="fw-bolder">es el tercer disco de El Plan de la Mariposa, Grabado entre octubre
+                                    y
+                                    noviembre de 2014 en
+                                    los estudios
+                                    Tónica (donde se registró Trance Habitante) y los míticos estudios Panda, que
+                                    mantiene
+                                    el
+                                    concepto de
+                                    “rock libre” en sus composiciones, variando los estilos entre canción y canción,
+                                    otorgándole
+                                    al álbum el
+                                    sello distintivo de la banda. Este nuevo trabajo del grupo contó con invitados de
+                                    lujo
+                                    como
+                                    Sebastián
+                                    Cebreiro y Sebastián Teysera de La Vela Puerca, quienes prestaron sus voces para dos
+                                    de
+                                    las
+                                    canciones
+                                    del disco. A principios del año 2014, la banda realizó una gira denominada "Los
+                                    viajes
+                                    de la
+                                    Isoca" (se
+                                    le denomina Isoca a un viejo Mercedes restaurado en donde realizaron los viajes por
+                                    toda
+                                    Latinoamérica)
+                                    junto a Jeites (liderada por Joaquín Varela) y Q-ki Dones. La repercusión de "Danza
+                                    de
+                                    Antalgia"
+                                    representó un mayor crecimiento para la banda. Los integrantes del grupo fueron
+                                    invitados a
+                                    tocar en
+                                    tres de los festivales más importantes del país como son Rock en Baradero; Cosquín
+                                    Rock
+                                    y en
+                                    Lollapalooza, esto llevó a que tengan material exclusivo para tiendas digitales como
+                                    "El
+                                    Plan en vivo en
+                                    La Plata", "Desde el Estudio Luis Alberto Spinetta (En Vivo)" y a "La Historia
+                                    detrás de
+                                    Danza".
+                                </p>
+                            </div>
+                            <div>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button class="btn btn-secondary" type="button">reproducir</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="div_contenedor_del_1er_disco">
+                            <div class="alineacion_contenido_discos_container_titulo">
+                                <p class="h4">DEVORANDO INTENSIDAD</p>
+                            </div>
+                            <div>
+                                <img src="./imagenes/4.devorando_intensidad.jpg"
+                                    alt="imagen_DEVORANDO_INTENSIDAD_4toDisco" class="img-fluid img_discos">
+                            </div>
+                            <div>
+                                <p class="fw-bolder">El 20 de febrero de 2017 comenzaron a grabar su cuarto disco,
+                                    Devorando
+                                    Intensidad, con el
+                                    ex-Árbol Edu
+                                    Schmidt como productor artístico. El 19 de mayo de ese mismo año salió el primer
+                                    sencillo,
+                                    El Riesgo.
+                                    Finalmente el 30 de junio se lanzó el disco. En este mes también han realizado una
+                                    gira
+                                    alrededor de
+                                    Europa, visitando lugares tales como Londres, Berlín, Copenhague, Hamburgo,
+                                    Groningen,
+                                    Zwolle Amserdam,
+                                    Brug Klempenow, Praga y Pilsem.</p>
+                            </div>
+                            <div>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button class="btn btn-secondary" type="button">reproducir</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="div_contenedor_del_1er_disco alineacion_contenido_main_section_discos">
+                            <div class="alineacion_contenido_discos_container_titulo">
+                                <p class="h4">ESTADO DE ENLACE</p>
+                            </div>
+                            <div>
+                                <img src="./imagenes/5.estado_de_enlace.jpg" alt="imagen_ESTADO_DE_ENLACE_5toDisco"
+                                    class="img-fluid img_discos">
+                            </div>
+                            <div>
+                                <p class="fw-bolder">Su último disco, Estado de enlace, fue lanzado el 30 de octubre de
+                                    2020, grabado y mezclado
+                                    por Facundo
+                                    Rodríguez en los estudios Romaphonic, Quark y Savia, y masterizado por Daniel Ovie,
+                                    con
+                                    la
+                                    producción
+                                    artística a cargo de los hermanos Máximo, Sebastián y Valentín Andersen. La edición
+                                    especial
+                                    de este
+                                    último disco en vinilo + CD con tres canciones extras que no están en el formato
+                                    digital
+                                    y
+                                    se encuentra
+                                    a la venta en 300tienda.com. En Estado de Enlace, El Plan continúa con su forma
+                                    integral
+                                    y
+                                    autogestiva
+                                    de realizar su arte, participando activamente en todos los aspectos de la
+                                    realización.
+                                    El
+                                    arte visual
+                                    del disco fue realizado por Santiago Andersen, violinista del grupo, que realizó
+                                    pinturas
+                                    para completar
+                                    el universo estético de la obra. Recientemente el septeto fundado por los cinco
+                                    hermanos
+                                    Andersen acaba
+                                    de realizar el lanzamiento de “Enlace en Estado Vivo”, una sesión y álbum doble en
+                                    vivo
+                                    del
+                                    registro de
+                                    su singular show por streaming realizado en noviembre pasado, en el marco de una
+                                    puesta
+                                    escenográfica
+                                    distinta, especialmente diseñada para esta propuesta, donde el arte en todas sus
+                                    variantes
+                                    acompañó la
+                                    fuerza de las canciones afirmando la esencia creativa del proyecto. “Enlace en
+                                    Estado
+                                    Vivo”
+                                    son 22
+                                    canciones, divididas en dos discos de 11 temas. La primera parte focaliza en las
+                                    canciones
+                                    más luminosas
+                                    y reconocidas del Plan mientras que en la segunda se escucha el lado más
+                                    psicodélico,
+                                    incluyendo las
+                                    canciones “Agradecimiento (La danza de la realidad)” y “La Ofrenda”, grabadas en la
+                                    experiencia
+                                    colectiva “Demos en Aislamiento”, realizada en cuarentena. Grabado y mezclado por
+                                    Santiago
+                                    McCarthy, el
+                                    show completo está disponible en dos partes en su canal oficial de Youtube. La banda
+                                    de
+                                    los
+                                    hermanos
+                                    Andersen es una de las que más creció en los últimos años en la Argentina, tanto en
+                                    convocatoria como en
+                                    solidez musical. A lo largo de su trayectoria la banda ha realizado participaciones
+                                    especiales junto a
+                                    Manu Chao, La Vela Puerca, Gustavo Cordera, Q-Ki Dones, Jeites, entre otros.
+                                </p>
+                            </div>
+                            <div>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button class="btn btn-secondary" type="button">reproducir</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+        </div>
+    </main>
+
+
+    <footer>
+        <div>
+            <ul id="follow" class="footer">
+                <li class="UlFooter">
+                    PARA SABER MÁS DE SUS PRÓXIMOS SHOWS PODÉS SEGUIR A LA BANDA EN
+                </li>
+            </ul>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row justify-content-around">
+                <ul class="alineacion_iconos_redes">
+                    <li><a href="#inicio"><img src="./iconos/1.iconoFacebook.png" alt="icono_Facebook"
+                                class="iconos_redes iconos_redes_facebook"></a></li>
+                    <li><a href="#inicio"><img src="./iconos/2.iconoInstagram.png" alt="icono_Instagram"
+                                class="iconos_redes"></a></li>
+                    <li><a href="#inicio"><img src="./iconos/3.iconoTwitter.png" alt="icono_Twitter"
+                                class="iconos_redes"></a></li>
+                    <li><a href="#inicio"><img src="./iconos/4.iconoYouTube.png" alt="icono_YouTube"
+                                class="iconos_redes"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
